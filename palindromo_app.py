@@ -35,3 +35,4 @@ class PalindromoApp:
 if __name__ == "__main__":
     app = PalindromoApp()
     app.iniciar()
+
