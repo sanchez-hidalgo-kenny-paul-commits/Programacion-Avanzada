@@ -57,7 +57,7 @@ def crear_coliseo_desde_input():
             anio_inauguracion = int(input("Año de inauguración (ej: 1998): "))
             break
         except ValueError:
-            print("⚠ Por favor, ingresa un año válido (número entero).")
+            print(" Por favor, ingresa un año válido (número entero).")
 
     coliseo = ColiseoDeportivo(
         nombre=nombre,
