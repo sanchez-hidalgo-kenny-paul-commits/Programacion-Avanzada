@@ -6,8 +6,7 @@ Define la clase ColiseoDeportivo y funciones para crear objetos de forma dinámi
 
 class ColiseoDeportivo:
     """
-    Representa un coliseo deportivo.
-    Puedes adaptar o ampliar los atributos según tus necesidades
+    Representa un coliseo deportivo. Puedes adaptar o ampliar los atributos según tus necesidades
     """
 
     def __init__(self, nombre, ciudad, capacidad, deporte_principal, es_techado, anio_inauguracion):
