@@ -1,19 +1,17 @@
-
 """
 Módulo: coliseos_deportivos.py
 --------------------------------
 Define la clase ColiseoDeportivo y funciones para crear objetos
-de forma dinámica usando entrada por teclado.
+de forma dinámica usando entrada por teclado...
 """
 
 class ColiseoDeportivo:
     """
     Representa un coliseo deportivo.
-    Puedes adaptar o ampliar los atributos según tus necesidades.
+    Puedes adaptar o ampliar los atributos según tus necesidades
     """
 
-    def __init__(self, nombre, ciudad, capacidad, deporte_principal,
-                 es_techado, anio_inauguracion):
+    def __init__(self, nombre, ciudad, capacidad, deporte_principal, es_techado, anio_inauguracion):
         self.nombre = nombre
         self.ciudad = ciudad
         self.capacidad = capacidad
@@ -79,8 +77,7 @@ def crear_coliseo_desde_input():
 
 def crear_varios_coliseos():
     """
-    Crea dinámicamente varios coliseos pidiendo datos al usuario
-    hasta que decida terminar.
+    Crea dinámicamente varios coliseos pidiendo datos al usuario hasta que decida terminar.
     """
     coliseos = []
     print("=== Registro dinámico de Coliseos Deportivos ===")
@@ -98,11 +95,11 @@ def crear_varios_coliseos():
 
 def mostrar_coliseos(coliseos):
     """
-    Muestra por pantalla la información de una lista de coliseos.
+    Muestra por pantalla la información de una lista de coliseos...
     """
     print("\n=== Lista de Coliseos Registrados ===")
     if not coliseos:
-        print("No hay coliseos registrados.")
+        print("No hay coliseos registrados")
         return
 
     for i, c in enumerate(coliseos, start=1):
