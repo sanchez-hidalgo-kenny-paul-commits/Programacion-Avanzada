@@ -1,8 +1,7 @@
 """
 Módulo: coliseos_deportivos.py
 --------------------------------
-Define la clase ColiseoDeportivo y funciones para crear objetos
-de forma dinámica usando entrada por teclado...
+Define la clase ColiseoDeportivo y funciones para crear objetos de forma dinámica usando entrada por teclado...
 """
 
 class ColiseoDeportivo:
